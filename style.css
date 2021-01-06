@@ -264,3 +264,75 @@ aside{
 	width: 127px;
 	height: 126px;
 }
+#activity{
+	margin-left: 2em;
+}
+#activités{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 0 1em 2em;
+}
+.picture3{
+	width: 302px;
+	height: 445px;
+	box-shadow:0 0 16px #E4E4E4;
+	border-radius: 1em;
+	margin: 0 2em 0 2em;
+}
+.picture3 img{
+	height: 390px;
+	width: 302px;
+	object-fit: cover;
+	border-radius: 1em 1em 0 0;
+}
+.picture4{
+	width: 302px;
+	height: 236px;
+	box-shadow:0 0 16px #E4E4E4;
+	border-radius: 1em;
+	margin: 1em 2em 1em 2em;
+}
+.picture4 img{
+	width: 302px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 1em 1em 0 0;
+}
+.picture5{
+	width: 302px;
+	height: 168px;
+	box-shadow:0 0 16px #E4E4E4;
+	border-radius: 1em;
+	margin: 1em 2em 1em 2em;
+}
+.picture5 img{
+	width: 302px;
+	height: 110px;
+	object-fit: cover;
+	border-radius: 1em 1em 0 0;
+}
+figcaption{
+	margin: 1em 0 0 1em;
+	font-weight: bold;
+}
+footer{
+	display: flex;
+	flex-direction: row;
+	background-color: #F2F2F2;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 20px;
+}
+footer div{
+	display: flex;
+	flex-direction: column;
+}
+footer div h2{
+	margin-left: none;
+}
+footer div a{
+	text-decoration: none;
+	color: black;
+	margin-top: 1em;
+}
