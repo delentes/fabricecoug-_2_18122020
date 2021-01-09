@@ -122,6 +122,9 @@ form{
 	background-color: #0065FC;
 	transform: scale(1.015);
 }
+.gr a:hover{
+	color: white;
+}
 .filter div i{
 	background-color: #DEEBFF;
 	color: #0065FC;
@@ -273,6 +276,7 @@ aside{
 	width: 127px;
 	height: 126px;
 }
+ /* mise en page section3 */
 #activity{
 	margin-left: 2em;
 }
@@ -325,6 +329,7 @@ figcaption{
 	margin: 1em 0 0 1em;
 	font-weight: bold;
 }
+ /* mise en page footer */
 footer{
 	display: flex;
 	flex-direction: row;
