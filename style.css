@@ -280,14 +280,14 @@ aside{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin: 0 0 1em 2em;
+	margin: 0 0 1em 0.8em;
 }
 .picture3{
 	width: 302px;
 	height: 445px;
 	box-shadow:0 0 16px #E4E4E4;
 	border-radius: 1em;
-	margin: 0 2em 0 2em;
+	margin: 0 2em 1em 2em;
 }
 .picture3 img{
 	height: 390px;
@@ -300,7 +300,7 @@ aside{
 	height: 236px;
 	box-shadow:0 0 16px #E4E4E4;
 	border-radius: 1em;
-	margin: 1em 2em 1em 2em;
+	margin: 0 2.5em 3em 2em;
 }
 .picture4 img{
 	width: 302px;
@@ -313,7 +313,7 @@ aside{
 	height: 168px;
 	box-shadow:0 0 16px #E4E4E4;
 	border-radius: 1em;
-	margin: 1em 2em 1em 2em;
+	margin: 0 2.5em 3em 2em;
 }
 .picture5 img{
 	width: 302px;
