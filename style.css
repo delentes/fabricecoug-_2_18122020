@@ -144,13 +144,17 @@ form{
 	border-radius: 100%;
 	padding:17px 16px 17px 16px;
 }
+.result{
+	display: flex;
+	flex-direction: row;
+}
 #info{
 	color: #0065fc;
 	border-radius: 100%;
 	border:2px solid #f2f2f2;
 	font-size: 0.8em;
 	padding:9px 13px 9px 13px;
-	margin-right: 1em;
+	margin: 7px 10px 0 0;
 }
 /* mise en page section2 */
 .sec2{
@@ -340,8 +344,12 @@ footer div{
 footer a{
 	margin-bottom: 1em;
 }
-@media all and (max-width:375px)
+/* resposive ipone8 */
+@media screen and (max-width:375px)
 {
+	body{
+		margin: 0;
+	}
 	header{
 	display: grid;
 	grid-template-columns: 1fr 0 0 0 0 0 0 0 1fr;
@@ -350,6 +358,7 @@ footer a{
 	}
 	.logo{
 		grid-column: 1;
+		margin-left: 25px;
 	}
 	.signup{
 		grid-column: 2;
@@ -370,20 +379,18 @@ footer a{
 	}
 	.btn.acti:hover{
 		border-top: none;
-		border-bottom: 2px solid #0065fc !important;
+		border-bottom: 2px solid #0065fc;
 	}
 	/* responsive section1*/
 	.sec1{
-		margin-left: 0;
+		margin-left: 20px;
 	}
 	form{
 		display: flex;
 		flex-direction: row;
-		margin-left: 1em;
-		margin-right: 1em;
 	}
 	#search{
-		width: 14em;
+		width: 230px;
 	}
 	#submit{
 		display: none;
@@ -404,18 +411,16 @@ footer a{
 		flex-direction: column;
 		align-items: flex-start;
 	}
-	.filter p{
-		margin-left: 1em;
-	}
 	#gr{
 		flex-wrap: wrap;
-		margin-left: 0;
+		margin: 0;
 	}
 	.gr{
-		margin-right: 0.5em;
+		margin: 0 10px 14px 0;
 	}
 	.gr a{
-		padding-right: 17px; 
+		padding-left: 11px;
+		padding-right: 15px; 
 	}
 	/* responsive section2*/
 	.sec2{
@@ -424,20 +429,31 @@ footer a{
 	}
 	.art1{
 		width: auto;
-		margin-left: 0;
+		margin-left: 20px;
+		background-color:white;
+		padding: 0;
 	}
 	.art2{
 		flex-direction: column;
 	}
 	aside{
-		margin: 0 0 1em 0;
 		padding: 0;
 		width: 100%;
 		border-radius: 0;
 	}
+	.asi1{
+		margin: 0 20px 0 20px;
+	}
 	.vignette{
 		justify-content: space-between;
-		margin-right: 0;
+		margin:0 0 20px 20px;
+	}
+	.pict{
+		width: 325px;
+		margin-bottom: 20px;
+	}
+	.picture1{
+		width: 325px;
 	}
 	/* respnsive sec3 */
 	.sec3{
@@ -448,18 +464,27 @@ footer a{
 		flex-direction: column;
 		width: auto;
 	}
+	.link3 figure{
+		width: 335px;
+		height: 190px;
+		margin-bottom: 20px;
+	}
+	.link3 figure img{
+		width: 335px;
+		height: 135px;
+	}
 	/* responcive footer */
 	footer{
 		display: flex;
 		flex-direction: column;
 		height: auto;
-		margin-left: 0;
 	}
 	footer div{
-		margin: 0;
+		margin:0 0 0 20px;
 	}
 }
-@media all and (max-width: 768px){
+@media screen and (min-width: 380px) and (max-width: 768px)
+{
 	header,section{
 		margin: 0em;
 	}
@@ -471,12 +496,13 @@ footer a{
 	}
 	.logo{
 		grid-column: 1;
+		margin-left: 7em;
 	}
 	.signup{
 		grid-column: 2;
 		text-align: end;
 		margin-top: 2em;
-		margin-right: 4em;
+		margin-right: 7em;
 	}
 	.btn.accom{
 		grid-column: 1;
@@ -493,7 +519,6 @@ footer a{
 	.btn:hover{
 		border-bottom: 2px solid #0065FC;
 		padding-top: 2em;
-		margin-bottom: 1em;
 	}
 	.btn:focus{
 		border-top: none;
@@ -504,12 +529,15 @@ footer a{
 		margin-right: 6em;
 	}
 	form{
-		margin-left: 6em;
+		display: flex;
+		justify-content: center;
+		margin-right: 100px;
 	}
 	.filter{
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+		margin-left: 4em;
 	}
 	.filter p{
 		margin-left: 3em;
@@ -522,34 +550,50 @@ footer a{
 		display: flex;
 		flex-direction: row;
 	}
+	.result{
+		justify-content: center;
+		margin-right: 4em;
+	}
 	.sec2{
 		display: flex;
 		flex-direction: column-reverse;
+		justify-content: center;
 	}
 	.art1{
 		width: 90%;
-		margin-left: 1em;
+		margin-left: 10px;
 		padding: 15px 40px 15px 15px;
 	}
 	.art2{
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-around;
+		justify-content: space-between;
+	}
+	.pict{
+		width: 300px;
+	}
+	.picture1{
+		width: 300px;
 	}
 	.pin{
 		margin-left: 2em;
 	}
 	aside{
-		width: 50%;
-		justify-content: center;
-		margin:0 1em 1em 20%;
-		padding-left: 20px;
+		width: auto;
+		margin: 10px;
+		padding:0 20px 0 20px;
 	}
-	#asi2{
-		align-items: center;
+	.asi1{
+		justify-content: space-around;
+	}
+	.asi2{
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: 0;
 	}
 	.vignette{
-		width: 345px;
+		width: 310px;
+		margin-right: 25px;
 	}
 	.picture2{
 		display: flex;
@@ -568,5 +612,17 @@ footer a{
 	}
 	footer div{
 		margin: 0 4em 0 0;
+	}
+}
+@media screen and (min-width:1500px){
+	.art1{
+		width: 55%;
+	}
+	.art2{
+		margin-right: 4em;
+		justify-content: space-around;
+	}
+	aside{
+		width: 25%;
 	}
 }
