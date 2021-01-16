@@ -9,7 +9,7 @@ a{
 header{
 	margin-left: 50px;
 	display: grid;
-	grid-template-columns: 1fr 500px 1fr 1fr 1fr;
+	grid-template-columns: 1fr 750px 1fr 1fr 1fr;
 	align-items: center;
 }
 .logo{
@@ -615,6 +615,10 @@ footer a{
 	}
 }
 @media screen and (min-width:1500px){
+	header{
+	display: grid;
+	grid-template-columns: 1fr 1000px 1fr 1fr 1fr;
+	}
 	.art1{
 		width: 55%;
 	}
