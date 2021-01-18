@@ -11,7 +11,7 @@
 	<div>
 		<header>
 			<img class="logo" src="pictures/Reservia@3x.png" alt="Reservia">
-			<a class="btn accom" href="#accommodation">Hébergement</a>
+			<a class="btn accom" href="#accommodation">Hébergements</a>
 			<a class="btn acti" href="#activity">Activités</a>
 			<a class="signup" href="#"><strong>S'inscrire</strong></a>
 		</header>
@@ -19,8 +19,10 @@
 			<div class=title>
 		    	<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 		    	<p>En plein centre ville ou en pleine nature</p>
-			    	<form>
-		    		<i class="fas fa-map-marker-alt"></i>
+			    <form>
+			    	<div class="marker">
+		    			<i class="fas fa-map-marker-alt"></i>
+		    		</div>
 			   		<input id="search" type="text" name="text" value="Marseille, France">
 			   		<i id="sub" class="fas fa-search"></i>
 			   		<input id="submit" type="submit" value="Rechercher">
@@ -30,25 +32,41 @@
 		    	<p><strong>Filtres</strong></p>
 		    	<div id="gr">
 			    	<div class= gr>
-					<i class="fas fa-money-bill-wave"></i>
-					<a href="#">&Eacute;conomique</a>
+			    		<div class="grm">
+							<i class="fas fa-money-bill-wave"></i>
+						</div>
+						<div class="gra">
+							<a href="#">&Eacute;conomique</a>
+						</div>
 					</div>
 					<div class= gr>
-			    	<i class="fas fa-child"></i>
-			    	<a href="#">Familial</a>
+						<div class="grm">
+			    			<i class="fas fa-child"></i>
+			    		</div>
+			    		<div class="gra">
+			    			<a href="#">Familial</a>
+			    		</div>
 			    	</div>
 			    	<div class= gr>
-			    	<i class="fas fa-heart"></i>
-			    	<a href="#">Romantique</a>
+			    		<div class="grm">
+					    	<i class="fas fa-heart"></i>
+					    </div>
+					    <div class="gra">
+			  			  	<a href="#">Romantique</a>
+			  			</div>
 			    	</div>
 			    	<div class= gr>
-			    	<i class="fas fa-dog"></i>
-			    	<a href="#">Animaux autorisés</a><br/>
+			    		<div class="grm">
+			    			<i class="fas fa-dog"></i>
+			    		</div>
+			    		<div class="gra">
+			    			<a href="#">Animaux autorisés</a><br/>
+			    		</div>
 			    	</div>
 		    	</div>
 		    </div>
 		    <div class="result">
-		    	<div>
+		    	<div class="result_i">
 		    		<i id="info" class="fas fa-info"></i>
 		    	</div>
 		    	<p>Plus de 500 logements sont disponibles dans cette ville</p>
@@ -63,7 +81,6 @@
 							<img class="picture1" src="pictures/hebergement/cannebiere.jpg" alt="Auberge la Cannebiere">
 							<h3>Auberge la Cannebière</h3>
 							<p>Nuit à partir de <strong>25&euro;</strong></p>
-							<div></div>
 							<div>
 								<span class="blue"><i class="fas fa-star"></i></span>
 								<span class="blue"><i class="fas fa-star"></i></span>
@@ -77,7 +94,7 @@
 						<a class="link1" href="#">
 							<img class="picture1" src="pictures/hebergement/port.jpg" alt="Hôtel du port">
 							<h3>Hôtel du port</h3>
-							<p>Nuit à partir de <strong>52&euro;</strong></p>
+							<p>Nuit à partir de 52<strong>&euro;</strong></p>
 							<div>
 								<span class="blue"><i class="fas fa-star"></i></span>
 								<span class="blue"><i class="fas fa-star"></i></span>
@@ -91,7 +108,7 @@
 						<a class="link1" href="#">
 							<img class="picture1" src="pictures/hebergement/les_mouettes.jpg" alt="Hôtel Les mouettes">
 							<h3>Hôtel Les mouettes</h3>
-							<p>Nuit à partie de <strong>70&euro;</strong></p>
+							<p>Nuit à partie de 70<strong>&euro;</strong></p>
 							<div>
 								<span class="blue"><i class="fas fa-star"></i></span>
 								<span class="blue"><i class="fas fa-star"></i></span>
@@ -105,7 +122,7 @@
 						<a class="link1" href="#">
 							<img class="picture1" src="pictures/hebergement/la_mer.jpg" alt="Hôtel de la mer">
 							<h3>Hôtel de la mer</h3>
-							<p>Nuit à partie de <strong>46&euro;</strong></p>
+							<p>Nuit à partie de 46<strong>&euro;</strong></p>
 							<div>
 								<span class="blue"><i class="fas fa-star"></i></span>
 								<span class="blue"><i class="fas fa-star"></i></span>
@@ -133,7 +150,7 @@
 						<a class="link1" href="#">
 							<img class="picture1" src="pictures/hebergement/chez_anima.jpg" alt="Hôtel chez Anima">
 							<h3>Hôtel chez Anima</h3>
-							<p>Nuit à partie de <strong>96&euro;</strong></p>
+							<p>Nuit à partie de 96<strong>&euro;</strong></p>
 							<div>
 								<span class="blue"><i class="fas fa-star"></i></span>
 								<span class="blue"><i class="fas fa-star"></i></span>
@@ -156,7 +173,7 @@
 						<a class="link2" href="#">
 							<img class="picture2" src="pictures/hebergement/soleil_du_matin.jpg" alt="Hotel Le soleil du matin">
 							<h3>Hôtel Le soleil du matin</h3>
-							<p>Nuit à partie de <strong>128&euro;</strong></p>
+							<p>Nuit à partie de 128<strong>&euro;</strong></p>
 							<div>
 								<span class="blue"><i class="fas fa-star"></i></span>
 								<span class="blue"><i class="fas fa-star"></i></span>
@@ -170,7 +187,7 @@
 						<a class="link2" href="#">
 							<img class="picture2" src="pictures/hebergement/coeur_de_leau.jpg" alt="Au coeur de l'eau">
 							<h3>Au coeur de l'eau Chambres d'hôtes</h3>
-							<p>Nuit à partie de <strong>71&euro;</strong></p>
+							<p>Nuit à partie de 71<strong>&euro;</strong></p>
 							<div>
 								<span class="blue"><i class="fas fa-star"></i></span>
 								<span class="blue"><i class="fas fa-star"></i></span>
@@ -184,7 +201,7 @@
 						<a class="link2" href="#">
 							<img class="picture2" src="pictures/hebergement/bleu_et_blanc.jpg" alt="Hotel Tout bleu et blanc">
 							<h3>Hôtel Tout bleu et blanc</h3>
-							<p>Nuit à partie de <strong>68&euro;</strong></p>
+							<p>Nuit à partie de 68<strong>&euro;</strong></p>
 							<div>
 								<span class="blue"><i class="fas fa-star"></i></span>
 								<span class="blue"><i class="fas fa-star"></i></span>
@@ -244,18 +261,18 @@
 		</section>
 		<footer>
 			<div>
-				<h2>A propos</h2>
+				<h3>A propos</h3>
 				<a href="#">Fonctionnement du site</a>
 				<a href="#">Conditions générales de vente</a>
 				<a href="#">Données et confidentialité</a>
 			</div>
 			<div>
-				<h2>Nos hébergements</h2>
+				<h3>Nos hébergements</h3>
 				<a href="#">Charte qualité</a>
 				<a href="#">Soumettre votre hôtel</a>
 			</div>
 			<div>
-				<h2>Assistance</h2>
+				<h3>Assistance</h3>
 				<a href="#">Centre d'aide</a>
 				<a href="#">Nous contacter</a>
 			</div>
