@@ -96,6 +96,7 @@ form{
 #submit{
 	width: 134px;
 	height: 50px;
+	font-size: 15px;
 	color: white;
 	font-weight: bold;
 	background-color: #0065fc;
@@ -413,7 +414,6 @@ footer a{
 	.btn.acti{
 		grid-column: 2;
 		grid-row: 2;
-		width: 171px;
 		margin-left: 0em;
 		padding-bottom: 13px;
 		border-bottom: 3px solid #f2f2f2;
@@ -525,7 +525,7 @@ footer a{
 		margin:0 0 0 20px;
 	}
 }
-@media screen and (min-width: 380px) and (max-width: 768px)
+@media screen and (min-width: 380px) and (max-width: 1024px)
 {
 	header,section{
 		margin: 0em;
@@ -677,5 +677,8 @@ footer a{
 	}
 	aside{
 		width: 25%;
+	}
+	footer{
+		justify-content: space-between;
 	}
 }
